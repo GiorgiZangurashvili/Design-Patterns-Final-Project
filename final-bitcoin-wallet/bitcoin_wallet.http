@@ -1,0 +1,15 @@
+POST http://localhost:8000/users
+###
+POST http://localhost:8000/wallets
+###
+GET http://localhost:8000/wallets/{address}
+###
+POST http://localhost:8000/transactions
+###
+GET http://localhost:8000/transactions
+###
+GET http://localhost:8000/wallets/{address}/transactions
+###
+GET http://localhost:8000/statistics
+
+
